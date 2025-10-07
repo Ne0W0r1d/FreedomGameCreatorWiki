@@ -1,0 +1,37 @@
+site_name: 创作与游戏操作系统自由运动 Wiki(Fuck MS Wiki)
+site_url: https://fuckms.ne0w0r1d.top
+repo_url: https://cnb.cool/neoengine_dev/Yumeyo_no_Army_Knife
+repo_name: Ne0W0r1d(CNB)/Yumeyo_no_Army_Knife
+theme:
+  name: material
+  language: zh
+  features:
+    - palette.toggle
+    - content.code.copy
+
+  palette:
+    # 浅色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Deep♂Dark♂Fantasy♂
+
+    # 深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: \O/
+  icon:
+    repo: material/source-repository
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ne0w0r1d/Yumeyo_no_Army_Knife
+      name: GitHub 仓库
