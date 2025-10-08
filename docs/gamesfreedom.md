@@ -1,7 +1,6 @@
-# Welcome to MkDocs
+# 游戏自由
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
+# <center>本内容将按照反作弊</center>
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
