@@ -1,16 +1,9 @@
 # 游戏自由
 
-# <center>本内容将按照反作弊</center>
-## Commands
+## <center>本内容将按照反作弊分类，部分数据实测，部分数据依赖AreWeAntiCheatYet和Proton DB</center>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## ACE（腾讯）
+## HoyoProterct（米哈游）
+** 本文提的解决方案请勿在Issue询问，请自行寻找 **
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## NACE （网易）
