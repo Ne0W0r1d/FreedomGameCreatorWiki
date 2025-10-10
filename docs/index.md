@@ -2,7 +2,9 @@
 ## <center>本Wiki的目的是整理在Linux上面可以用的创作类软件，以及可以玩的游戏</center>
 
 ### <center> 如果你也想参与贡献，欢迎来到Git提issue </center> 
-
+<div align="center">
+   <img src="images/icon.jpg" alt="fuckms" width="50%">
+</div>
 ## 本页面结构
 
     Index：你所看到的页面，关于这个项目

@@ -27,5 +27,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: \O/
+  favicon: images/icon.jpg
   icon:
     repo: material/source-repository
+    # logo: images/icon.jpg
