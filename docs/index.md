@@ -1,6 +1,6 @@
 # 欢迎来到创作与游戏操作系统自由运动 Wiki（又称 Fuck Microsoft Wiki）
 ## <center>本Wiki的目的是整理在Linux上面可以用的创作类软件，以及可以玩的游戏</center>
-
+## <center><small>如果你是Mac用户，也想参与创作与游戏操作系统自由运动 Wiki（尤其是游戏），不妨fork此工程，使用GitHub Pages实现，该站可提供传送门</small></center>
 ### <center> 如果你也想参与贡献，欢迎来到Git提issue </center> 
 <div align="center">
    <img src="images/icon.jpg" alt="fuckms" width="50%">
