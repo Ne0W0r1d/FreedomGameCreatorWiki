@@ -38,7 +38,6 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Zebralette 3 | NOS-F | Native✅ |  |
 | Vital | NOS-F | Native✅ | Clap可能出现无法打开的情况 |
 | Analog Lab V | NOS-FP | NC✅ | ASC可能无法下载，建议去官网下载 |
-| Kontakt 
 | Ample Bass P Lite 2 | NOS-F | NC✅ |  |
 | Ample Guitar M Lite 2 | NOS-F | NC✅ |  |
 | Ample Percussion Cloudrum Lite | NOS-F | NC✅ |  |
