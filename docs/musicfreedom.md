@@ -37,11 +37,15 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Zebralette 3 | NOS-F | Native✅ |  |
 | Vital | NOS-F | Native✅ | Clap可能出现无法打开的情况 |
 | Analog Lab V | NOS-FP | NC✅ | ASC可能无法下载，建议去官网下载 |
+| Kontakt 
 | Ample Bass P Lite 2 | NOS-F | NC✅ |  |
 | Ample Guitar M Lite 2 | NOS-F | NC✅ |  |
 | Ample Percussion Cloudrum Lite | NOS-F | NC✅ |  |
 | Air Bassline | NOS-P | NC✅ |  |
 | Bloom KSHMR | NOS-P | NC✅ |  |
+| Massive | NOS-P | NC✅ |  |
+| Massive X | NOS-P | ❌ | 疑似技术栈问题，正版无法正常使用库 |
+| Kontakt 8 | NOS-P | ❌ | 疑似技术栈问题，正版无法正常使用库 |
 | Spirtfire BBCSO 探索版 | NOS-F | ❌ | UI无法正常加载，会让宿主挂起 | 
 | Spirtfie Labs | NOS-F | ❌ | UI无法正常加载，会让宿主挂起 |
 | Pneuma | NOS-F | ❌ | 会让整个系统挂起 |
@@ -52,7 +56,21 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
 | Efx REFRACT | NOS-P | NC✅ |  |
+| Plugin Allance Free | NOS-F | NC✅ |  |
 | Analog Obsession Bundle | NOS-F | NC✅ |  |
+| Baby Comeback | NOS-F | NC✅ | |
+| Magic Switch | NOS-F | NC✅ | |
+| Magic Dice | NOS-F | NC✅ | |
+| Wider | NOS-F | NC✅ | UI可能会有冻结情况 |
+| iZotope Bundle | NOS-F | ❌ | 加密问题，正版无法正常激活 |
 | Fresh Air | NOS-F | ❌ | 使用iLOK | 
 | Heatware | NOS-F | ❌ | 使用iLOK | 
 | Softube Saturation Knob | NOS-F | ❌ | 使用iLOK | 
+
+## 厂商管理工具
+
+| 软件名称 | 软件类型 | 是否可用 | 备注 |
+| :-----: | :-----: | :-----: | :-----: |
+| Native Access | NOS | NC✅ | 仅限经典版本，无法正常挂载，新版NodeJS可能无法打开或安装困难 |
+| Spirtfire | NOS | ❌ |  |
+| iZotope 门户 | NOS | ❌ |  | 
