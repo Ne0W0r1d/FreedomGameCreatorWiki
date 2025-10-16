@@ -1,6 +1,7 @@
 # 创作自由：音乐
 #### 更新日期：2025.10.16
 #### <center>事先声明：Linux环境不支持Wine+加密狗，如果软件要求iLOK等方式激活，请选择绕行</center>
+#### <center>本站不提供破解版本的测试</center>
 #### <center>来自yabridge issue内的提醒，Arch建议使用，5.1.1-1+Wine-Staging 9.21</center>
 #### <center>如果出现插件转译报错：Low memory locking limit detected（检测到低内存锁定限制），请安装realtime-privileges包，并将自己用户加入realtime实时组，并注销重新登陆</center>
 
@@ -63,14 +64,14 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Magic Dice | NOS-F | NC✅ | |
 | Wider | NOS-F | NC✅ | UI可能会有冻结情况 |
 | iZotope Bundle | NOS-F | ❌ | 加密问题，正版无法正常激活 |
-| Fresh Air | NOS-F | ❌ | 使用iLOK | 
-| Heatware | NOS-F | ❌ | 使用iLOK | 
-| Softube Saturation Knob | NOS-F | ❌ | 使用iLOK | 
+| Fresh Air | NOS-F | ❌ | 使用iLOK，正版无法正常激活 | 
+| Heatware | NOS-F | ❌ | 使用iLOK，正版无法正常激活 | 
+| Softube Saturation Knob | NOS-F | ❌ | 使用iLOK，正版无法正常激活 | 
 
 ## 厂商管理工具
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
-| Native Access | NOS | NC✅ | 仅限经典版本，无法正常挂载，新版NodeJS可能无法打开或安装困难 |
+| Native Access | NOS | NC✅ | 仅限经典版本，无法正常挂载，新版NodeJS可能无法打开且安装困难 |
 | Spirtfire | NOS | ❌ |  |
 | iZotope 门户 | NOS | ❌ |  | 
