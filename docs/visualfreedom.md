@@ -12,7 +12,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Sample 1 | NOS-P（非开源，收费软件） | Native✅ | 不分设置 |
 | Sample 2 | OOS-FP（开源，免费软件、有收费版） | ❌ | 有加密问题 |
 
-# 图片处理软件
+## 图片处理软件
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
@@ -20,7 +20,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Affinity Photo 2 | NOS-P | NC✅ | 需要特定版本的Wine，硬件加速需VKD3D，存在一定的UI和性能问题 |
 | Adobe Phtoshop | NOS-P | ❌ | 技术栈/加密问题 |
 
-# 矢量设计软件
+## 矢量设计软件
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
@@ -28,7 +28,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Affinity Designer 2 | NOS-P | NC✅ | 需要特定版本的Wine，硬件加速需VKD3D，存在一定的UI和性能问题 |
 | Adobe Illustrator | NOS-P | ❌ | 技术栈/加密问题 | 
 
-# 排版
+## 排版
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
@@ -36,15 +36,16 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Affinity Publisher 2 | NOS-P | NC✅ | 需要特定版本的Wine，硬件加速需VKD3D，存在一定的UI和性能问题 |
 | Adobe InDesign | NOS-P | ❌ | 技术栈/加密问题 | 
 
-# 非线性编辑软件
+## 非线性编辑软件
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
 | Kdenlive | OOS-F | Native✅ |  |
 | DaVinci Resolve | NOS-FP | Native✅ | 可能需要自己处理pango以正常运行 |
+| 剪映、必剪等Electron类似物 | NOS-F | ❌ | 技术栈和团队精力问题 | 
 | Adobe Premiere Pro | NOS-P | ❌ | 技术栈/加密问题 | 
 
-# VFX
+## VFX
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
@@ -52,7 +53,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | BMD Fusion/DaVinci Fusion | NOS-P | Native✅ | 可能需要自己处理pango以正常运行 |
 | Adobe After Effects | NOS-P | ❌ | 技术栈/加密问题 | 
 
-# 3D软件
+## 3D软件
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
@@ -61,7 +62,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | AutoDesk 3Ds Max | NOS-P | ❌ | 技术栈问题 | 
 
 
-# 照片调色工具
+## 照片调色工具
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |

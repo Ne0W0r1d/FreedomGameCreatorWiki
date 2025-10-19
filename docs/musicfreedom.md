@@ -1,9 +1,9 @@
 # 创作自由：音乐
-#### 更新日期：2025.10.16
+#### 更新日期：2025.10.19
 #### <center>事先声明：Linux环境不支持Wine+加密狗，如果软件要求iLOK等方式激活，请选择绕行</center>
-#### <center>本站不提供破解版本的测试</center>
+#### <center>本站尽量不提供破解版本的测试，部分软件如果提供了破解版本的测试也不会提供下载链接，</center>
 #### <center>来自yabridge issue内的提醒，Arch建议使用，5.1.1-1+Wine-Staging 9.21</center>
-#### <center>如果出现插件转译报错：Low memory locking limit detected（检测到低内存锁定限制），请安装realtime-privileges包，并将自己用户加入realtime实时组，并注销重新登陆</center>
+#### <center>如果出现插件转译报错：Low memory locking limit detected（检测到低内存锁定限制），请安装realtime-privileges包，并将自己用户加入realtime实时组，并重新登录</center>
 
 ## 图例
 
@@ -44,8 +44,9 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Air Bassline | NOS-P | NC✅ |  |
 | Bloom KSHMR | NOS-P | NC✅ |  |
 | Massive | NOS-P | NC✅ |  |
-| Massive X | NOS-P | ❌ | 疑似技术栈问题，正版无法正常使用库 |
-| Kontakt 8 | NOS-P | ❌ | 疑似技术栈问题，正版无法正常使用库 |
+| Massive X | NOS-P | ❌ | 疑似技术栈问题，正版无法正常使用库，破解1.4.1正常使用 |
+| Kontakt 8 | NOS-FP | ❌ | 无法正常安装 |
+| Kontakt 7 | NOS-FP | ❌ | (Player版本)疑似技术栈问题，正版无法正常使用库，（完整版本【破解】）正常使用）
 | Spirtfire BBCSO 探索版 | NOS-F | ❌ | UI无法正常加载，会让宿主挂起 | 
 | Spirtfie Labs | NOS-F | ❌ | UI无法正常加载，会让宿主挂起 |
 | Pneuma | NOS-F | ❌ | 会让整个系统挂起 |
@@ -57,11 +58,18 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | :-----: | :-----: | :-----: | :-----: |
 | Efx REFRACT | NOS-P | NC✅ |  |
 | Plugin Allance Free | NOS-F | NC✅ |  |
+| Raum | NOS-F | NC✅ |  |
 | Analog Obsession Bundle | NOS-F | NC✅ |  |
 | Baby Comeback | NOS-F | NC✅ | |
 | Magic Switch | NOS-F | NC✅ | |
 | Magic Dice | NOS-F | NC✅ | |
-| Wider | NOS-F | NC✅ | UI可能会有冻结情况 |
+| KClip Zero | NOS-F | NC✅ | |
+| Wider | NOS-F | NC✅ | UI会有冻结情况，但不影响正常使用 |
+| OTT | NOS-F | NC✅ |  |
+| TDR Nova | NOS-F | NC✅ |  |
+| Initial Clipper | NOS-F | NC✅ |  |
+| Gravity Granular Reverb | NOS-F | ❌ | UI冻结，影响正常使用 |
+| Initial Dynamic EQ | NOS-F | ❌ | UI冻结，影响正常使用 |
 | iZotope Bundle | NOS-F | ❌ | 加密问题，正版无法正常激活 |
 | Fresh Air | NOS-F | ❌ | 使用iLOK，正版无法正常激活 | 
 | Heatware | NOS-F | ❌ | 使用iLOK，正版无法正常激活 | 
@@ -71,6 +79,8 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
-| Native Access | NOS | NC✅ | 仅限经典版本，无法正常挂载，新版NodeJS可能无法打开且安装困难 |
-| Spirtfire | NOS | ❌ |  |
-| iZotope 门户 | NOS | ❌ |  | 
+| Native Access | NOS | NC✅ | 仅限经典版本，无法正常挂载，新版NodeJS可能无法打开且安装库困难 |
+| 喷火 | NOS | NC✅ | 但Labs和喷火无法正常使用，能用管理工具是何意味 |
+| iZotope | NOS | ❌ | 无法正常激活 | 
+| Softube | NOS | ❌ | 绑定iLok |
+| UAD |
