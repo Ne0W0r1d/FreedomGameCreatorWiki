@@ -1,5 +1,5 @@
 # 游戏自由
-#### 更新日期：2025.10.16
+#### 更新日期：2025.10.22
 
 ## <center>本内容将按照反作弊分类，部分数据实测，部分数据依赖AreWeAntiCheatYet和Proton DB</center><br>
 
@@ -15,6 +15,7 @@ Native：原生游戏 // NC：Need Compliant需要兼容层<br>
 | 死亡搁浅 | NC✅ | 测试版本为Epic版 |
 | Muse Dash | NC✅ |  |
 | 魔法少女的魔女审判 | NC✅ | |
+| 底特律：化身为人 | NC🔧 |  |
 
 ## ACE（腾讯）
 
@@ -22,7 +23,7 @@ Native：原生游戏 // NC：Need Compliant需要兼容层<br>
 
 | 游戏名称（区服） | 是否可玩 | 备注 | 
 | :-----: | :-----: | :-----: |
-| 崩坏3（简中服） | NC🔧 | 尚未测试，需解决方案 |
+| 崩坏3（简中服） | NC🔧 | 需解决方案 |
 | 鸣朝（Steam版本） | NC🔧 | 尚未测试，需自行设置STEAMOS环境变量 |
 | 三角洲行动 | ❌ | 需要 Windows 内核反作弊版本的ACE |
 | 无畏契约（简中）| ❌ | 需要 Windows 内核反作弊版本的ACE |
@@ -45,8 +46,10 @@ Native：原生游戏 // NC：Need Compliant需要兼容层<br>
 
 
 ## NACE （网易）
-## <center> ~~请坐和放宽~~ </center>
-
+| 游戏名称 | 是否可玩 | 备注 | 
+| :-----: | :-----: | :-----: |
+| 守望先锋（国服战网） | NC✅ | 如果不能玩请选择Steam的Proton |
+| 永劫无间（Steam版） | NC✅ | ProtonDB Gold |
 
 ## Eazy Anti Cheat（Epic EAC）
 
