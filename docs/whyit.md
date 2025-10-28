@@ -34,17 +34,18 @@
   
   Windows 10 EOL才几天啊，就搞了一堆幺蛾子（主要就是十月更新的）
   什么叫：
-    - [用户使用的一些工具不能访问localhost](https://www.landiannews.com/archives/110926.html)
-    - [含特殊字符用户名无法登录微软 OneDrive](https://www.ithome.com/0/892/263.htm)
-    - [Win11 23H2，Windows Server 2016/2022 安装微软 10 月累积更新失败，且有概率变砖](https://www.ithome.com/0/892/256.htm)
-    - [还是10月更新，导致键盘和鼠标在 WinRE 中不再工作](https://www.ithome.com/0/890/846.htm)
-    - [闲置 1 分钟锁屏断网（电源管理）](https://www.ithome.com/0/892/847.htm)
-    - [Win11 核心安全功能被曝漏洞，微软确认可复现但不予修复](https://www.ithome.com/0/892/861.htm)
-    - [微软 10 月更新反馈存在 BUG：导致远程桌面“Win11 连不上 Win11”](https://www.ithome.com/0/892/265.htm)
-      - [原因](https://ourl.co/110962)
-    - [Win11 微软商店调整：不再支持永久关闭自动更新，最多仅能暂停 5 周](https://www.ithome.com/0/891/563.htm)
-    - [微软 Win10 / Win11 SMB 漏洞披露，可接管你的电脑](https://www.ithome.com/0/891/002.htm)
-    - [PowerToys 深浅色模式切换出现 BUG，导致 Windows 11 频繁在深浅色模式之间切换](https://ourl.co/110945)
+  
+  - [用户使用的一些工具不能访问localhost](https://www.landiannews.com/archives/110926.html)
+  - [含特殊字符用户名无法登录微软 OneDrive](https://www.ithome.com/0/892/263.htm)
+  - [Win11 23H2，Windows Server 2016/2022 安装微软 10 月累积更新失败，且有概率变砖](https://www.ithome.com/0/892/256.htm)
+  - [还是10月更新，导致键盘和鼠标在 WinRE 中不再工作](https://www.ithome.com/0/890/846.htm)
+  - [闲置 1 分钟锁屏断网（电源管理）](https://www.ithome.com/0/892/847.htm)
+  - [Win11 核心安全功能被曝漏洞，微软确认可复现但不予修复](https://www.ithome.com/0/892/861.htm)
+  - [微软 10 月更新反馈存在 BUG：导致远程桌面“Win11 连不上 Win11”](https://www.ithome.com/0/892/265.htm)
+    - [原因](https://ourl.co/110962)
+  - [Win11 微软商店调整：不再支持永久关闭自动更新，最多仅能暂停 5 周](https://www.ithome.com/0/891/563.htm)
+  - [微软 Win10 / Win11 SMB 漏洞披露，可接管你的电脑](https://www.ithome.com/0/891/002.htm)
+  - [PowerToys 深浅色模式切换出现 BUG，导致 Windows 11 频繁在深浅色模式之间切换](https://ourl.co/110945)
     
   就这，还想在系统各地塞各种各样的副驾驶，你塞你🐴呢，这边还不包括微软对OpenAI投资亏损，用户怒喷MS365手机版套件的新闻，Fuck MS
   
