@@ -4,7 +4,8 @@
 #### <center>本站尽量不提供破解版本的测试，部分软件如果提供了破解版本的测试也不会提供下载链接，</center>
 #### <center>来自yabridge issue内的提醒，Arch建议使用，5.1.1-1+Wine-Staging 9.21</center>
 #### <center>部分插件冻结请安装DXVK和VKD3D</center>
-#### <center>如果出现插件转译报错：Low memory locking limit detected（检测到低内存锁定限制），请安装realtime-privileges包，并将自己用户加入realtime实时组，并重新登录</center>
+#### <center>如果出现插件转译报错：Low memory locking limit detected（检测到低内存锁定限制），请安装 realtime-privileges 包，并将自己用户加入realtime实时组，并重新登录</center>
+#### <center> Fedora Realtime 解决方案：安装 realtime-setup </center>
 
 ## 图例
 
@@ -49,9 +50,9 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Massive X | NOS-P | ❌ | 疑似技术栈问题，正版无法正常使用库，破解1.4.1正常使用 |
 | Serun 2 | NOS-P | ❌ | UI严重问题, 建议直接使用Vital |
 | Kontakt 8 | NOS-FP | ❌ | 无法正常安装 |
-| Kontakt 7 | NOS-FP | ❌ | (Player版本)疑似技术栈问题，正版无法正常使用库，（完整版本【破解】）正常使用）
+| Kontakt 7 | NOS-FP | ❌ | (Player版本)疑似技术栈问题，正版无法正常使用库，（完整版本【破解】）可用） |
 | Spirtfire BBCSO 探索版 | NOS-F | ❌ | UI无法正常加载，会让宿主挂起 | 
-| Spitfire Labs | NOS-F | ❌ | UI无法正常加载，会让宿主挂起 |
+| Spitfire Labs | NOS-F |  | UI无法正常加载，会让宿主挂起 |
 | Pneuma | NOS-F | ❌ | 会让整个系统挂起 |
 | BFD Drum Player | NOS-F | ❌ | 无法正常安装 |
 
@@ -59,7 +60,6 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
-| Efx REFRACT | NOS-P | NC✅ |  |
 | Plugin Allance Free | NOS-F | NC✅ |  |
 | Raum | NOS-F | NC✅ |  |
 | Analog Obsession Bundle | NOS-F | NC✅ |  |
@@ -83,6 +83,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | FabFilter Bundle | NOS-P | NC✅ | 测试版为Crack，正版状态未知 |
 | LFOTools | NOS-P | NC✅ | UI可能闪烁，测试来源为Crack |
 | BlackRooster Audio 套件 | NOS-FP | ❌ | 无法载入到Wine插件主机 |
+| Efx REFRACT | NOS-P | ❌ | UI 无法正常工作，可能会带崩 DAW |
 | LANDR Mastering | NOS-P | ❌ | 无法载入UI |
 | iZotope Bundle | NOS-F | ❌ | 加密问题，正版无法正常激活 |
 | Fresh Air | NOS-F | ❌ | 使用iLOK，正版无法正常激活 | 
@@ -93,6 +94,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
+| Arturia Software Center | NOS | NC✅ | 可正常激活 Arturia 套件 |
 | Native Access | NOS | ❌ | 仅限经典版本，无法正常挂载，新版NodeJS可能无法打开且安装库困难 |
 | Spitfire | NOS | ❌ | Labs和喷火无法正常使用，能用管理工具是何意味 |
 | iZotope | NOS | ❌ | 无法正常激活 | 

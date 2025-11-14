@@ -41,6 +41,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
 | Kdenlive | OOS-F | Native✅ |  |
+| OpenCut | OOS-F | NC✅ | 可使用opencut网页、可自己编译 |
 | DaVinci Resolve | NOS-FP | Native✅ | 可能需要自己处理pango以正常运行 |
 | 剪映、必剪等Electron类似物 | NOS-F | ❌ | 技术栈和团队精力问题 | 
 | Adobe Premiere Pro | NOS-P | ❌ | 技术栈/加密问题 | 
@@ -69,6 +70,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | Darktable | OOS-F | Native✅ | |
 | RawTherapee | OOS-F | Native✅ | |
 | Lightzone | OOS-F | Native✅ | |
+| DigiKam | OOS-F | Native✅ | |
 | PHASE ONE CaptureOne | NOS-P | ❌ | 人员精力/技术栈问题 | 
 | Adobe Lightroom | NOS-P | ❌ | 技术栈/加密问题 | 
 
