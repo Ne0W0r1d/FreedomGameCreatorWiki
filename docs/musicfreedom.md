@@ -1,14 +1,18 @@
 # 创作自由：音乐
 #### 更新日期：2025.10.26
+
+## 注意事项
+
 #### <center>事先声明：Linux环境不支持Wine+加密狗，如果软件要求iLOK等方式激活，请选择绕行</center>
 #### <center>本站尽量不提供破解版本的测试，部分软件如果提供了破解版本的测试也不会提供下载链接，</center>
 #### <center>来自yabridge issue内的提醒，Arch建议使用，5.1.1-1+Wine-Staging 9.21</center>
 #### <center>部分插件冻结请安装DXVK和VKD3D</center>
-#### <center>如果出现插件转译报错：Low memory locking limit detected（检测到低内存锁定限制），请安装realtime-privileges包，并将自己用户加入realtime实时组，并重新登录</center>
+#### <center>如果出现插件转译报错：Low memory locking limit detected（检测到低内存锁定限制）</center>
+#### <center>请安装realtime-privileges(Arch)/realtime-setup(RHEL)/rtkit（SUSE）包，并将自己用户加入realtime/rtkit（并启动rtkit守护程序）实时组，并重新登录</center>
 
 ## 图例
 
-OS：Open Source（开源） // NOS：Non-Open Source / Proprietary（专有） // P：Paid（收费） // F：Free（免费）<br>
+OSS：Open Source（开源） // NOS：Non-Open Source / Proprietary（专有） // P：Paid（收费） // F：Free（免费）<br>
 ⭕：需要解决方案 // ✅：可用 // ❌：不可用 // 🔧：需要测试<br>
 Native：原生软件 // NC：Need Compliant需要兼容层<br>
 
@@ -24,7 +28,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
 | Zyrthm | OSS-FP | Native✅ | 自行编译/AUR GIT版本（免费）/买断 **开源推荐** | 
-| Ardour | OOS-FP | Native✅ | 自行编译/AUR GIT版本（免费）/捐赠下载 | 
+| Ardour | OSS-FP | Native✅ | 自行编译/AUR GIT版本（免费）/捐赠下载 | 
 | Audacity | OSS-F | Native✅ |  | 
 | Bitwig Studio | NOS-P | Native✅ | 闭源推荐 |
 | Traction Waveform | NOS-FP | Native✅ |  |
@@ -35,7 +39,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 
 | 软件名称 | 软件类型 | 是否可用 | 备注 |
 | :-----: | :-----: | :-----: | :-----: |
-| SurgeXT | OOS-F | Native✅ |  |
+| SurgeXT | OSS-F | Native✅ |  |
 | Zebralette 3 | NOS-F | Native✅ |  |
 | Vital | NOS-F | Native✅ | Clap可能出现无法打开的情况 |
 | Analog Lab V | NOS-FP | NC✅ | ASC可能无法下载，建议去官网下载 |

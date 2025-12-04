@@ -8,8 +8,8 @@
 ### 强制更新
 
   这是微软qj人最有效的手段之一，通过自动补丁更新修复一堆问题，又带来一堆问题，从2015年Windows 10正式发布开始，就一直这样了
-  大伙可以看如下视频
-  <center><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=515294870&bvid=BV1vg411S7BA&cid=826799405&p=1" tyle="width: 120%; height: 120%;" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></center>
+  大伙可以看如下视频<br>
+  <center><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=515294870&bvid=BV1vg411S7BA&cid=826799405&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></center><br>
 
 ### 数据小偷，强迫用户
 
