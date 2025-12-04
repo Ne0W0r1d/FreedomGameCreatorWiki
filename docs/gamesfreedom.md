@@ -21,8 +21,8 @@ Native：原生游戏 // NC：Need Compliant 需要兼容层<br>
 | 底特律：化身为人 | NC✅ | |
 | 明日方舟 | NC✅ | 需要 Waydroid+ARM 转译 |
 | FaceIT AC | ❌ | 该反作弊为内核反作弊 |
-| 5EAC | ❌ | Wine 平台无法调用原生版 CS2 |
-| 完美世界对战平台 | ❌ | Wine 平台无法调用原生版 CS2 |
+| 5EAC | ❌ | Wine 平台无法调用原生版 CS2 并注入反作弊 |
+| 完美世界对战平台 | ❌ | Wine 平台无法调用原生版 CS2 并注入反作弊 |
 
 ## ACE（腾讯反作弊专家）
 
