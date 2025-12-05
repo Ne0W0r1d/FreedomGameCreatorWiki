@@ -12,8 +12,7 @@
         VisualFreedom   # 可在Linux下使用的视觉传达
         GamesFreedom    # 可在Linux下正常游玩的游戏
         MusicFreedom    # 可在Linux正常使用的音频制作工具
-
-### <center> ✨ 星星之火，可以燎原 ✨ </center> 
+ 
 ### <center> ✨ 希望各位可以一起参与该Wiki的编写！ ✨ </center>
 
-#### <center> 本站基于CloudFlare Pages + Mkdocks + Github构建 </center>
+#### <center> 本站基于 Mkdocks + Github + EdgeOne 构建 </center>
