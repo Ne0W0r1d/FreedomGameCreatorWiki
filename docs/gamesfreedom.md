@@ -1,5 +1,5 @@
 # 游戏自由
-#### 更新日期：2025.12.04
+#### 更新日期：2025.12.07
 
 ## <center>本内容将按照反作弊分类，部分数据实测，部分数据依赖 AreWeAntiCheatYet 和 Proton DB</center><br>
 
@@ -11,10 +11,10 @@ Native：原生游戏 // NC：Need Compliant 需要兼容层<br>
 
 | 游戏名称 | 是否可玩 | 备注 | 使用兼容层 |
 | :-----: | :-----: | :-----: | :-----: |
-| 饥荒 | Native✅ |  | N/A |
-| Minecraft Java版 | Native✅ |  | N/A |
-| OSU Lazer | Native✅ |  | N/A |
-| 赛博朋克2077 | NC✅ |  | N/A |
+| 饥荒 | Native✅ |  | |
+| Minecraft Java版 | Native✅ |  |  |
+| OSU Lazer | Native✅ |  | |
+| 赛博朋克2077 | NC✅ |  | |
 | 死亡搁浅 | NC✅ | 测试版本为 Epic 版，可能需要设置 VKD3D 配置文件 | Proton-CachyOS |
 | Muse Dash | NC✅ |  | GE-Proton 10.24 |
 | 魔法少女的魔女审判 | NC✅ |  | GE-Proton 10.24 |
@@ -28,15 +28,15 @@ Native：原生游戏 // NC：Need Compliant 需要兼容层<br>
 
 **本文提的解决方案请勿在Issue询问，请自行寻找**
 
-| 游戏名称-区服 | 是否可玩 | 备注 | 
-| :-----: | :-----: | :-----: |
+| 游戏名称-区服 | 是否可玩 | 备注 | 使用兼容层 |
+| :-----: | :-----: | :-----: | :-----: |
 | 崩坏3-简中服 | NC✅ | 需解决方案 | GE-Proton 10.24 | 
 | 鸣朝-简中服 | NC✅ | 更新工具需要第三方解决方案，需 STEAMDECK=1 SteamOS=1 环境变量 | GE-Proton 10.25 |
 | 鸣朝-Steam | NC✅ | 需 STEAMDECK=1 SteamOS=1 环境变量 | GE-Proton 10.25 |
 | 卡拉彼丘-国际服 | NC✅ | 需特定版本 GE-Proton | GE-Proton 10.25 |
-| 三角洲行动 | ❌ | kACE 不支持 Linux | 未测试 |
-| 无畏契约-简中服 | ❌ | kACE 不支持 Linux | 未测试 |
-| 明日方舟：终末地 | ❓ | 等正式服测试 |
+| 三角洲行动 | ❌ | kACE 不支持 Linux | |
+| 无畏契约-简中服 | ❌ | kACE 不支持 Linux | |
+| 明日方舟：终末地 | ❓ | 等正式服测试 |  |
 
 ## HoyoKProterct（米哈游）
 
@@ -46,7 +46,7 @@ Native：原生游戏 // NC：Need Compliant 需要兼容层<br>
 | :-----: | :-----: | :-----: | :-----: |
 | 崩坏：星穹铁道-简中服 | NC✅ | 需解决方案，并通过 Hosts 关闭遥测 | GE-Proton 10.24 |
 | 绝区零-简中服 | NC✅ | 需通过 Hosts 关闭遥测 | GE-Proton 10.24 |
-| 原神-简中服 | ❌ | 2025.12.04 - 6.2 版本后不再支持 | GE-Proton 10.24 |
+| 原神-简中服 | ❌ | 2025.12.04 - 6.2 版本后 4001 报错 | GE-Proton 10.24 |
 
 ## VAC
 
