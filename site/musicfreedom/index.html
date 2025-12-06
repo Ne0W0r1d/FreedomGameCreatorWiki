@@ -824,30 +824,6 @@
 <p>OSS：Open Source（开源） // NOS：Non-Open Source / Proprietary（专有） // P：Paid（收费） // F：Free（免费）<br>
 ⭕：需要解决方案 // ✅：可用 // ❌：不可用 // 🔧：需要测试<br>
 Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;">软件名称</th>
-<th style="text-align: center;">软件类型</th>
-<th style="text-align: center;">是否可用</th>
-<th style="text-align: center;">备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">Sample 1</td>
-<td style="text-align: center;">NOS-P（非开源，收费软件）</td>
-<td style="text-align: center;">NC✅</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: center;">Sample 2</td>
-<td style="text-align: center;">OOS-FP（开源，免费软件、有收费版）</td>
-<td style="text-align: center;">❌</td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
 <h2 id="daw">DAW</h2>
 <h4 id="linux">仅 Linux 客户端</h4>
 <table>
@@ -857,6 +833,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <th style="text-align: center;">软件类型</th>
 <th style="text-align: center;">是否可用</th>
 <th style="text-align: center;">备注</th>
+<th style="text-align: center;">使用兼容层</th>
 </tr>
 </thead>
 <tbody>
@@ -864,18 +841,21 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <td style="text-align: center;">Zyrthm</td>
 <td style="text-align: center;">OSS-FP</td>
 <td style="text-align: center;">Native✅</td>
-<td style="text-align: center;">自行编译/AUR GIT版本（免费）/买断 <strong>开源推荐</strong></td>
+<td style="text-align: center;">自行编译/AUR GIT版本（免费）/买断</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">Ardour</td>
 <td style="text-align: center;">OSS-FP</td>
 <td style="text-align: center;">Native✅</td>
 <td style="text-align: center;">自行编译/AUR GIT版本（免费）/捐赠下载</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">Audacity</td>
 <td style="text-align: center;">OSS-F</td>
 <td style="text-align: center;">Native✅</td>
+<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
@@ -883,11 +863,13 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">Native✅</td>
 <td style="text-align: center;">闭源推荐</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">Traction Waveform</td>
 <td style="text-align: center;">NOS-FP</td>
 <td style="text-align: center;">Native✅</td>
+<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
@@ -895,12 +877,14 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">Native✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">Studio One 7</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">Native✅</td>
 <td style="text-align: center;">Fuck Fender</td>
+<td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
@@ -912,6 +896,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <th style="text-align: center;">软件类型</th>
 <th style="text-align: center;">是否可用</th>
 <th style="text-align: center;">备注</th>
+<th style="text-align: center;">使用兼容层</th>
 </tr>
 </thead>
 <tbody>
@@ -920,11 +905,13 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <td style="text-align: center;">OSS-F</td>
 <td style="text-align: center;">Native✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">Zebralette 3</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">Native✅</td>
+<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
@@ -932,102 +919,119 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">Native✅</td>
 <td style="text-align: center;">Clap可能出现无法打开的情况</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">Analog Lab V</td>
 <td style="text-align: center;">NOS-FP</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">ASC可能无法下载，建议去官网下载</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Ample Bass P Lite 2</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Ample Guitar M Lite 2</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Ample Percussion Cloudrum Lite</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Air Bassline</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Bloom KSHMR</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Serum 1</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">需要关闭d2d1函数库，测试版本为Crack</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">Massive</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">Massive X</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">疑似技术栈问题，正版无法正常使用库，破解1.4.1正常使用</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">Serun 2</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">UI严重问题, 建议直接使用Vital</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">Kontakt 8</td>
 <td style="text-align: center;">NOS-FP</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">无法正常安装</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Kontakt 7</td>
 <td style="text-align: center;">NOS-FP</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">(Player版本)疑似技术栈问题，正版无法正常使用库，（完整版本【破解】）正常使用）</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Spirtfire BBCSO 探索版</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">UI无法正常加载，会让宿主挂起</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">Spitfire Labs</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">UI无法正常加载，会让宿主挂起</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">Pneuma</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">会让整个系统挂起</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">BFD Drum Player</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">无法正常安装</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 </tbody>
 </table>
@@ -1039,19 +1043,15 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <th style="text-align: center;">软件类型</th>
 <th style="text-align: center;">是否可用</th>
 <th style="text-align: center;">备注</th>
+<th style="text-align: center;">使用兼容层</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">Efx REFRACT</td>
-<td style="text-align: center;">NOS-P</td>
-<td style="text-align: center;">NC✅</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
 <td style="text-align: center;">Plugin Allance Free</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
@@ -1059,162 +1059,189 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">Analog Obsession Bundle</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Baby Comeback</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Magic Switch</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Magic Dice</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">KClip Zero</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Wider</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: center;">Wider</td>
-<td style="text-align: center;">NOS-F</td>
-<td style="text-align: center;">NC✅</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">theTAPE</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Initial Dynamic EQ</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">OTT</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">TDR Nova</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Initial Clipper</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Gravity Granular Reverb</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">UI可能存在问题</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">GraterLight</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">推荐选择OpenGL</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">LoFi-FluxLight</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">推荐选择OpenGL</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">SpreadLight</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">推荐选择OpenGL</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">CrispyClipLight</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">推荐选择OpenGL</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">Valhalla DSP Bundle</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">测试版本为Crack</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">FabFilter Bundle</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">测试版为Crack，正版状态未知</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 <tr>
 <td style="text-align: center;">LFOTools</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">NC✅</td>
 <td style="text-align: center;">UI可能闪烁，测试来源为Crack</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">BlackRooster Audio 套件</td>
 <td style="text-align: center;">NOS-FP</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">无法载入到Wine插件主机</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">LANDR Mastering</td>
 <td style="text-align: center;">NOS-P</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">无法载入UI</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">iZotope Bundle</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">加密问题，正版无法正常激活</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">Fresh Air</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">使用iLOK，正版无法正常激活</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">Heatware</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">使用iLOK，正版无法正常激活</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
 </tr>
 <tr>
 <td style="text-align: center;">Softube Saturation Knob</td>
 <td style="text-align: center;">NOS-F</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">使用iLOK，正版无法正常激活</td>
+<td style="text-align: center;">Wine 9.21 + Yabridge 主线</td>
+</tr>
+<tr>
+<td style="text-align: center;">Efx REFRACT</td>
+<td style="text-align: center;">NOS-P</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">UI 卡死</td>
+<td style="text-align: center;">Wine 10.19 + Yabridge Wine 10分支</td>
 </tr>
 </tbody>
 </table>
@@ -1226,6 +1253,7 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <th style="text-align: center;">软件类型</th>
 <th style="text-align: center;">是否可用</th>
 <th style="text-align: center;">备注</th>
+<th style="text-align: center;">使用兼容层</th>
 </tr>
 </thead>
 <tbody>
@@ -1234,30 +1262,35 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br></p>
 <td style="text-align: center;">NOS</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">仅限经典版本，无法正常挂载，新版NodeJS可能无法打开且安装库困难</td>
+<td style="text-align: center;">Wine 9.21</td>
 </tr>
 <tr>
 <td style="text-align: center;">Spitfire</td>
 <td style="text-align: center;">NOS</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">Labs和喷火无法正常使用，能用管理工具是何意味</td>
+<td style="text-align: center;">Wine 9.21</td>
 </tr>
 <tr>
 <td style="text-align: center;">iZotope</td>
 <td style="text-align: center;">NOS</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">无法正常激活</td>
+<td style="text-align: center;">Wine 9.21</td>
 </tr>
 <tr>
 <td style="text-align: center;">Softube</td>
 <td style="text-align: center;">NOS</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">绑定iLok</td>
+<td style="text-align: center;">Wine 9.21</td>
 </tr>
 <tr>
 <td style="text-align: center;">UAD</td>
 <td style="text-align: center;">NOS</td>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">绑定iLok</td>
+<td style="text-align: center;">Wine 9.21</td>
 </tr>
 </tbody>
 </table>
