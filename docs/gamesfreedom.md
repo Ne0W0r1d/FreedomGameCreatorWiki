@@ -31,7 +31,7 @@ Native：原生游戏 // NC：Need Compliant 需要兼容层<br>
 | 游戏名称-区服 | 是否可玩 | 备注 | 使用兼容层 |
 | :-----: | :-----: | :-----: | :-----: |
 | 崩坏3-简中服 | NC✅ | 需解决方案 | GE-Proton 10.24 | 
-| 鸣朝-简中服 | NC✅ | 更新工具需要第三方解决方案，需 STEAMDECK=1 SteamOS=1 环境变量 | GE-Proton 10.25 |
+| 鸣朝-简中服 | NC✅ | 更新工具需要第三方解决方案，本人使用 [ww-cli](https://github.com/timetetng/wutheringwaves-cli-manager) ，需 SteamOS=1 环境变量 | GE-Proton 10.24 |
 | 鸣朝-Steam | NC✅ | 需 STEAMDECK=1 SteamOS=1 环境变量 | GE-Proton 10.25 |
 | 卡拉彼丘-国际服 | NC✅ | 需特定版本 GE-Proton | GE-Proton 10.25 |
 | 三角洲行动-简中服 | ❌ | kACE 不支持 Linux | |
