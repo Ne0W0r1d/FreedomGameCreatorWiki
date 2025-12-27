@@ -8,8 +8,6 @@
 ### 强制更新
 
   这是微软qj人最有效的手段之一，通过自动补丁更新修复一堆问题，又带来一堆问题，从2015年Windows 10正式发布开始，就一直这样了
-  大伙可以看如下视频<br>
-  <center><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=515294870&bvid=BV1vg411S7BA&cid=826799405&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></center><br>
 
 ### 数据小偷，强迫用户
 
@@ -47,7 +45,7 @@
   - [微软 Win10 / Win11 SMB 漏洞披露，可接管你的电脑](https://www.ithome.com/0/891/002.htm)
   - [PowerToys 深浅色模式切换出现 BUG，导致 Windows 11 频繁在深浅色模式之间切换](https://ourl.co/110945)
     
-  就这，还想在系统各地塞各种各样的副驾驶，你塞你🐴呢，这边还不包括微软对OpenAI投资亏损，用户怒喷MS365手机版套件的新闻，Fuck MS
+  就这，还想在系统各地塞各种各样的副驾驶，你塞你🐴呢，这边还不包括微软对OpenAI投资亏损，用户怒喷 MS365 手机版套件的新闻，Fuck MS
   
 
 ### 感谢微软，我已经用Linux去了，你的Bing和Hotmail邮箱以及Github我会继续用的，在大陆地区里面算是好用的搜索引擎且Rewards积分奖励确实丰盛，以及我很多东西也已经在Hotmail了，至于Windows和Edge，再你🐴的见吧……
