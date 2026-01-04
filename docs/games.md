@@ -1,4 +1,4 @@
-# 游戏自由
+# 游戏
 #### 更新日期：2025.12.27
 
 ## <center>本内容将按照反作弊分类，部分数据实测，部分数据依赖 AreWeAntiCheatYet 和 Proton DB</center><br>

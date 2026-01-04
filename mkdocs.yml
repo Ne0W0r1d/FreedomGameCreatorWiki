@@ -1,7 +1,7 @@
-site_name: 创作与游戏操作系统自由运动 Wiki(Fuck MS Wiki)
+site_name: No Windows Wiki
 site_url: https://fuckms.ne0w0r1d.top
 repo_url: https://github.com/Ne0W0r1d/FreedomGameCreatorWiki
-repo_name: Ne0W0r1d/FreedomGameCreatorWiki
+repo_name: ne0w0r1d/NoWindowsWiki
 theme:
   name: material
   language: zh
