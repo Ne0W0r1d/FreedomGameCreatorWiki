@@ -19,6 +19,8 @@
 
 可在 Github 和 Gitee 搜索 ``NoWindowsWiki``
 
+<small>笑点解析：Github 是 Microsoft 的</small>
+
 ## 项目基建鸣谢！
 
 - [腾讯 EdgeOne](https://cloud.tencent.com/product/teo)
