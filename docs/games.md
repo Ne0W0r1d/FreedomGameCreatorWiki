@@ -1,10 +1,10 @@
 # 游戏
 #### 更新日期：2026.01.27
 
-## <center>本内容将按照反作弊分类，部分数据实测，部分数据依赖 AreWeAntiCheatYet 和 Proton DB</center><br>
+## <center>本内容将按照反作弊分类，数据来源系个人实测/用户贡献</center><br>
 
 ## 图例
-✅：可玩 // ❌：不可玩 // 🔧：需要测试<br>
+✅：可玩 // ❌：不可玩 // ❓：需要测试<br>
 Native：原生游戏 // NC：Need Compliant 需要兼容层<br>
 
 ## 无反作弊（单机游戏）/其他反作弊/DRM
@@ -28,15 +28,16 @@ Native：原生游戏 // NC：Need Compliant 需要兼容层<br>
 
 **本文提的解决方案请勿在Issue询问，请自行寻找**
 
-|   游戏名称-区服   | 是否可玩 |                                                                            备注                                                                             |      使用兼容层      |       技术栈       |
-| :---------: | :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------: | :-------------: |
-|   崩坏3-简中服   | NC✅  |                                                                           需解决方案                                                                           | GE-Proton 10.24 |      Unity      |
-|   鸣朝-简中服    | NC✅  | 更新工具需要第三方解决方案，本人使用 [ww-cli](https://github.com/timetetng/wutheringwaves-cli-manager) <br>需 SteamOS=1 环境变量，但是会出现掉线情况，如果不加可能需看脸出现 ACE 报错（（非 GE-Proton 的情况下） | GE-Proton 10.27 | Unreal Engine 4 |
-|  鸣朝-Steam   | NC✅  |                                                            需 SteamOS=1 环境变量（非 GE-Proton 的情况下）                                                             | GE-Proton 10.25 | Unreal Engine 4 |
-|  卡拉彼丘-国际服   | NC✅  |                                                                      需特定版本 GE-Proton                                                                      | GE-Proton 10.25 | Unreal Engine 4 |
-|  三角洲行动-简中服  |  ❌   |                                                                    反作弊依赖 Windows 可信启动                                                                     |       未测试       | Unreal Engine 5 |
-| 三角洲行动-Steam |  ❌   |                                                                    使用卡拉比丘国际服反作弊替换法已经失效                                                                    |       未测试       | Unreal Engine 5 |
-|  无畏契约-简中服   |  ❌   |                                                                    反作弊依赖 Windows 可信启动                                                                     |       未测试       | Unreal Engine 5 |
+|     游戏名称-区服      | 是否可玩 |                                                                            备注                                                                             |      使用兼容层      |       技术栈       |
+| :--------------: | :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------: | :-------------: |
+|     崩坏3-简中服      | NC✅  |                                                                           需解决方案                                                                           | GE-Proton 10.24 |      Unity      |
+|      鸣朝-简中服      | NC✅  | 更新工具需要第三方解决方案，本人使用 [ww-cli](https://github.com/timetetng/wutheringwaves-cli-manager) <br>需 SteamOS=1 环境变量，但是会出现掉线情况，如果不加可能需看脸出现 ACE 报错（（非 GE-Proton 的情况下） | GE-Proton 10.27 | Unreal Engine 4 |
+|     鸣朝-Steam     | NC✅  |                                                            需 SteamOS=1 环境变量（非 GE-Proton 的情况下）                                                             | GE-Proton 10.25 | Unreal Engine 4 |
+|    三角洲行动-简中服     |  ❌   |                                                                    反作弊依赖 Windows 可信启动                                                                     |       未测试       | Unreal Engine 5 |
+|   三角洲行动-Steam    |  ❌   |                                                                    使用卡拉比丘国际服反作弊替换法已经失效                                                                    |       未测试       | Unreal Engine 5 |
+|     无畏契约-简中服     |  ❌   |                                                                    反作弊依赖 Windows 可信启动                                                                     |       未测试       | Unreal Engine 5 |
+|     卡拉彼丘-简中服     |  ❓   |                                                                            待测试                                                                            |       未测试       | Unreal Engine 4 |
+| 明日方舟：终末地 - 中国大陆服 |  ❓   |                                                                            待测试                                                                            |       未测试       |      Unity      |
 
 ## HoYoKProtect（米哈游）
 
@@ -46,8 +47,8 @@ Native：原生游戏 // NC：Need Compliant 需要兼容层<br>
 | :---------------: | :--: | :-------------------------------------------------: | :-------------: | :----------: |
 |    崩坏：星穹铁道-简中服    | NC✅  | 需解决方案+通过 Hosts 关闭遥测，高于 10.25 的 Wayland 模式可能会导致键盘不可用 | GE-Proton 10.24 |    Unity     |
 |      绝区零-简中服      | NC✅  |                   需通过 Hosts 关闭遥测                    | GE-Proton 10.24 |    Unity     |
-|      原神-简中服       | NC✅  |               2025.12.07 - 请使用 Steam                | GE-Proton 10.21 |    Unity     |
-| 原神：UGC 开发工具（千星沙箱） |      |                                                     |                 | .Net WinForm |
+|      原神-简中服       | NC✅  |               2026.01.18 - 请使用 Steam                | GE-Proton 10.18 |    Unity     |
+| 原神：UGC 开发工具（千星沙箱） | NC✅  |                                                     | GE-Proton 10.18 | .Net WinForm |
 
 ## VAC
 
