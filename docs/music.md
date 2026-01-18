@@ -88,13 +88,14 @@ Native：原生软件 // NC：Need Compliant需要兼容层<br>
 
 ## 厂商管理工具
 
-|     软件名称      | 软件类型 | 是否可用 |                 备注                 |   使用兼容层   |
-| :-----------: | :--: | :--: | :--------------------------------: | :-------: |
-| Native Access | NOS  |  ❌   | 仅限经典版本，无法正常挂载，新版NodeJS可能无法打开且安装库困难 | Wine 9.21 |
-|   Spitfire    | NOS  |  ❌   |      Labs和喷火无法正常使用，能用管理工具是何意味      | Wine 9.21 |
-|    iZotope    | NOS  |  ❌   |               无法正常激活               | Wine 9.21 |
-|    Softube    | NOS  |  ❌   |               绑定iLok               | Wine 9.21 |
-|      UAD      | NOS  |  ❌   |               绑定iLok               | Wine 9.21 |
+|          软件名称           | 软件类型 | 是否可用 |                 备注                 |        使用兼容层        |
+| :---------------------: | :--: | :--: | :--------------------------------: | :-----------------: |
+| Arturia Software Center | NOS  |  ✅   |                                    | Wine-Staging 11_rc3 |
+|      Native Access      | NOS  |  ❌   | 仅限经典版本，无法正常挂载，新版NodeJS可能无法打开且安装库困难 |      Wine 9.21      |
+|        Spitfire         | NOS  |  ❌   |      Labs和喷火无法正常使用，能用管理工具是何意味      |      Wine 9.21      |
+|         iZotope         | NOS  |  ❌   |               无法正常激活               |      Wine 9.21      |
+|         Softube         | NOS  |  ❌   |               绑定iLok               |      Wine 9.21      |
+|           UAD           | NOS  |  ❌   |               绑定iLok               |      Wine 9.21      |
 
 ## 其他插件已知问题
 
